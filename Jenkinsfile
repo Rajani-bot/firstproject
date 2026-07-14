@@ -6,7 +6,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'git remote add origin https://github.com/Rajani-bot/firstproject.git'
+                git 'https://github.com/Rajani-bot/firstproject.git'
             }
         }
 
